@@ -1,0 +1,19 @@
+{"level":30,"time":"2021-08-01T21:09:44.281Z","pid":16632,"hostname":"DESKTOP-RE44GK5","msg":"Listening on 60070"}
+{"level":30,"time":"2021-08-01T21:09:45.527Z","pid":16632,"hostname":"DESKTOP-RE44GK5","msg":"currentBrowser: [object Object]"}
+{"level":30,"time":"2021-08-01T21:09:45.527Z","pid":16632,"hostname":"DESKTOP-RE44GK5","msg":"Trace file: "}
+{"level":30,"time":"2021-08-01T21:09:45.568Z","pid":16632,"hostname":"DESKTOP-RE44GK5","msg":"Changed active context"}
+{"level":30,"time":"2021-08-01T21:09:45.577Z","pid":16632,"hostname":"DESKTOP-RE44GK5","msg":"currentBrowser: [object Object]"}
+{"level":30,"time":"2021-08-01T21:09:46.233Z","pid":16632,"hostname":"DESKTOP-RE44GK5","msg":"Video path: undefined"}
+{"level":30,"time":"2021-08-01T21:09:46.233Z","pid":16632,"hostname":"DESKTOP-RE44GK5","msg":"Changed active page"}
+================= Original suppressed error =================
+page.click: Timeout 10000ms exceeded.
+=========================== logs ===========================
+waiting for selector "id=order-another"
+============================================================
+    at Object.<anonymous> (C:\Users\admin\AppData\Local\robocorp\live\b9cced05ce8c3c59\lib\site-packages\Browser\wrapper\index.js:25589:45)
+    at step (C:\Users\admin\AppData\Local\robocorp\live\b9cced05ce8c3c59\lib\site-packages\Browser\wrapper\index.js:25482:23)
+    at Object.next (C:\Users\admin\AppData\Local\robocorp\live\b9cced05ce8c3c59\lib\site-packages\Browser\wrapper\index.js:25463:53)
+    at fulfilled (C:\Users\admin\AppData\Local\robocorp\live\b9cced05ce8c3c59\lib\site-packages\Browser\wrapper\index.js:25454:58) {
+  name: 'TimeoutError'
+}
+=============================================================
