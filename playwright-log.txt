@@ -1,7 +1,8 @@
-{"level":30,"time":"2021-08-02T21:32:24.902Z","pid":6412,"hostname":"DESKTOP-RE44GK5","msg":"Listening on 60838"}
-{"level":30,"time":"2021-08-02T21:32:26.240Z","pid":6412,"hostname":"DESKTOP-RE44GK5","msg":"currentBrowser: [object Object]"}
-{"level":30,"time":"2021-08-02T21:32:26.241Z","pid":6412,"hostname":"DESKTOP-RE44GK5","msg":"Trace file: "}
-{"level":30,"time":"2021-08-02T21:32:26.264Z","pid":6412,"hostname":"DESKTOP-RE44GK5","msg":"Changed active context"}
-{"level":30,"time":"2021-08-02T21:32:26.273Z","pid":6412,"hostname":"DESKTOP-RE44GK5","msg":"currentBrowser: [object Object]"}
-{"level":30,"time":"2021-08-02T21:32:26.992Z","pid":6412,"hostname":"DESKTOP-RE44GK5","msg":"Video path: undefined"}
-{"level":30,"time":"2021-08-02T21:32:26.992Z","pid":6412,"hostname":"DESKTOP-RE44GK5","msg":"Changed active page"}
+{"level":30,"time":"2021-08-04T21:43:51.436Z","pid":12812,"hostname":"DESKTOP-RE44GK5","msg":"Listening on 60144"}
+{"level":30,"time":"2021-08-04T21:43:52.663Z","pid":12812,"hostname":"DESKTOP-RE44GK5","msg":"currentBrowser: [object Object]"}
+{"level":30,"time":"2021-08-04T21:43:52.664Z","pid":12812,"hostname":"DESKTOP-RE44GK5","msg":"Trace file: "}
+{"level":30,"time":"2021-08-04T21:43:52.705Z","pid":12812,"hostname":"DESKTOP-RE44GK5","msg":"Changed active context"}
+{"level":30,"time":"2021-08-04T21:43:52.713Z","pid":12812,"hostname":"DESKTOP-RE44GK5","msg":"currentBrowser: [object Object]"}
+{"level":30,"time":"2021-08-04T21:43:53.440Z","pid":12812,"hostname":"DESKTOP-RE44GK5","msg":"Video path: undefined"}
+{"level":30,"time":"2021-08-04T21:43:53.440Z","pid":12812,"hostname":"DESKTOP-RE44GK5","msg":"Changed active page"}
+{"level":30,"time":"2021-08-04T21:43:57.250Z","pid":12812,"hostname":"DESKTOP-RE44GK5","msg":"Retrieved dom property for element xpath=//*[@id=\"receipt\"] containing <div id=\"receipt\" class=\"alert alert-success\" role=\"alert\"><h3>Receipt</h3><div>2021-08-04T21:43:57.194Z</div><p class=\"badge badge-success\">RSB-ROBO-ORDER-82R4VRT83BB</p><p>Address 123</p><div id=\"parts\" class=\"alert alert-light\" role=\"alert\"><div>Head: 1</div><div>Body: 2</div><div>Legs: 3</div></div><p>Thank you for your order! We will ship your robot to you as soon as our warehouse robots gather the parts you ordered! You will receive your robot in no time!</p></div>"}
