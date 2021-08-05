@@ -1,8 +1,99 @@
-{"level":30,"time":"2021-08-04T21:43:51.436Z","pid":12812,"hostname":"DESKTOP-RE44GK5","msg":"Listening on 60144"}
-{"level":30,"time":"2021-08-04T21:43:52.663Z","pid":12812,"hostname":"DESKTOP-RE44GK5","msg":"currentBrowser: [object Object]"}
-{"level":30,"time":"2021-08-04T21:43:52.664Z","pid":12812,"hostname":"DESKTOP-RE44GK5","msg":"Trace file: "}
-{"level":30,"time":"2021-08-04T21:43:52.705Z","pid":12812,"hostname":"DESKTOP-RE44GK5","msg":"Changed active context"}
-{"level":30,"time":"2021-08-04T21:43:52.713Z","pid":12812,"hostname":"DESKTOP-RE44GK5","msg":"currentBrowser: [object Object]"}
-{"level":30,"time":"2021-08-04T21:43:53.440Z","pid":12812,"hostname":"DESKTOP-RE44GK5","msg":"Video path: undefined"}
-{"level":30,"time":"2021-08-04T21:43:53.440Z","pid":12812,"hostname":"DESKTOP-RE44GK5","msg":"Changed active page"}
-{"level":30,"time":"2021-08-04T21:43:57.250Z","pid":12812,"hostname":"DESKTOP-RE44GK5","msg":"Retrieved dom property for element xpath=//*[@id=\"receipt\"] containing <div id=\"receipt\" class=\"alert alert-success\" role=\"alert\"><h3>Receipt</h3><div>2021-08-04T21:43:57.194Z</div><p class=\"badge badge-success\">RSB-ROBO-ORDER-82R4VRT83BB</p><p>Address 123</p><div id=\"parts\" class=\"alert alert-light\" role=\"alert\"><div>Head: 1</div><div>Body: 2</div><div>Legs: 3</div></div><p>Thank you for your order! We will ship your robot to you as soon as our warehouse robots gather the parts you ordered! You will receive your robot in no time!</p></div>"}
+{"level":30,"time":"2021-08-05T21:00:01.958Z","pid":12568,"hostname":"DESKTOP-RE44GK5","msg":"Listening on 52967"}
+{"level":30,"time":"2021-08-05T21:00:04.295Z","pid":12568,"hostname":"DESKTOP-RE44GK5","msg":"currentBrowser: [object Object]"}
+{"level":30,"time":"2021-08-05T21:00:04.295Z","pid":12568,"hostname":"DESKTOP-RE44GK5","msg":"Trace file: "}
+{"level":30,"time":"2021-08-05T21:00:04.353Z","pid":12568,"hostname":"DESKTOP-RE44GK5","msg":"Changed active context"}
+{"level":30,"time":"2021-08-05T21:00:04.359Z","pid":12568,"hostname":"DESKTOP-RE44GK5","msg":"currentBrowser: [object Object]"}
+{"level":30,"time":"2021-08-05T21:00:05.040Z","pid":12568,"hostname":"DESKTOP-RE44GK5","msg":"Video path: undefined"}
+{"level":30,"time":"2021-08-05T21:00:05.040Z","pid":12568,"hostname":"DESKTOP-RE44GK5","msg":"Changed active page"}
+{"level":30,"time":"2021-08-05T21:00:07.100Z","pid":12568,"hostname":"DESKTOP-RE44GK5","msg":"Retrieved dom property for element xpath=//*[@id=\"receipt\"] containing <div id=\"receipt\" class=\"alert alert-success\" role=\"alert\"><h3>Receipt</h3><div>2021-08-05T21:00:07.059Z</div><p class=\"badge badge-success\">RSB-ROBO-ORDER-E9GFBU7EV6C</p><p>Address 123</p><div id=\"parts\" class=\"alert alert-light\" role=\"alert\"><div>Head: 1</div><div>Body: 2</div><div>Legs: 3</div></div><p>Thank you for your order! We will ship your robot to you as soon as our warehouse robots gather the parts you ordered! You will receive your robot in no time!</p></div>"}
+================= Original suppressed error =================
+page.waitForSelector: Timeout 10000ms exceeded.
+=========================== logs ===========================
+waiting for selector "xpath=//*[@id="receipt"]"
+============================================================
+    at Object.<anonymous> (C:\Users\admin\AppData\Local\robocorp\live\b9cced05ce8c3c59\lib\site-packages\Browser\wrapper\index.js:25509:50)
+    at step (C:\Users\admin\AppData\Local\robocorp\live\b9cced05ce8c3c59\lib\site-packages\Browser\wrapper\index.js:25482:23)
+    at Object.next (C:\Users\admin\AppData\Local\robocorp\live\b9cced05ce8c3c59\lib\site-packages\Browser\wrapper\index.js:25463:53)
+    at fulfilled (C:\Users\admin\AppData\Local\robocorp\live\b9cced05ce8c3c59\lib\site-packages\Browser\wrapper\index.js:25454:58) {
+  name: 'TimeoutError'
+}
+=============================================================
+================= Original suppressed error =================
+page.waitForSelector: Timeout 10000ms exceeded.
+=========================== logs ===========================
+waiting for selector "xpath=//*[@id="receipt"]"
+============================================================
+    at Object.<anonymous> (C:\Users\admin\AppData\Local\robocorp\live\b9cced05ce8c3c59\lib\site-packages\Browser\wrapper\index.js:25509:50)
+    at step (C:\Users\admin\AppData\Local\robocorp\live\b9cced05ce8c3c59\lib\site-packages\Browser\wrapper\index.js:25482:23)
+    at Object.next (C:\Users\admin\AppData\Local\robocorp\live\b9cced05ce8c3c59\lib\site-packages\Browser\wrapper\index.js:25463:53)
+    at fulfilled (C:\Users\admin\AppData\Local\robocorp\live\b9cced05ce8c3c59\lib\site-packages\Browser\wrapper\index.js:25454:58) {
+  name: 'TimeoutError'
+}
+=============================================================
+{"level":30,"time":"2021-08-05T21:00:29.493Z","pid":12568,"hostname":"DESKTOP-RE44GK5","msg":"Retrieved dom property for element xpath=//*[@id=\"receipt\"] containing <div id=\"receipt\" class=\"alert alert-success\" role=\"alert\"><h3>Receipt</h3><div>2021-08-05T21:00:29.462Z</div><p class=\"badge badge-success\">RSB-ROBO-ORDER-QYMEG0TDY8B</p><p>Address 456</p><div id=\"parts\" class=\"alert alert-light\" role=\"alert\"><div>Head: 4</div><div>Body: 1</div><div>Legs: 5</div></div><p>Thank you for your order! We will ship your robot to you as soon as our warehouse robots gather the parts you ordered! You will receive your robot in no time!</p></div>"}
+{"level":30,"time":"2021-08-05T21:00:30.262Z","pid":12568,"hostname":"DESKTOP-RE44GK5","msg":"Retrieved dom property for element xpath=//*[@id=\"receipt\"] containing <div id=\"receipt\" class=\"alert alert-success\" role=\"alert\"><h3>Receipt</h3><div>2021-08-05T21:00:30.229Z</div><p class=\"badge badge-success\">RSB-ROBO-ORDER-LWSD63SGT</p><p>Address 789</p><div id=\"parts\" class=\"alert alert-light\" role=\"alert\"><div>Head: 6</div><div>Body: 2</div><div>Legs: 3</div></div><p>Thank you for your order! We will ship your robot to you as soon as our warehouse robots gather the parts you ordered! You will receive your robot in no time!</p></div>"}
+{"level":30,"time":"2021-08-05T21:00:31.044Z","pid":12568,"hostname":"DESKTOP-RE44GK5","msg":"Retrieved dom property for element xpath=//*[@id=\"receipt\"] containing <div id=\"receipt\" class=\"alert alert-success\" role=\"alert\"><h3>Receipt</h3><div>2021-08-05T21:00:31.006Z</div><p class=\"badge badge-success\">RSB-ROBO-ORDER-BWDPPPKFJP</p><p>Address 1</p><div id=\"parts\" class=\"alert alert-light\" role=\"alert\"><div>Head: 2</div><div>Body: 3</div><div>Legs: 2</div></div><p>Thank you for your order! We will ship your robot to you as soon as our warehouse robots gather the parts you ordered! You will receive your robot in no time!</p></div>"}
+{"level":30,"time":"2021-08-05T21:00:31.772Z","pid":12568,"hostname":"DESKTOP-RE44GK5","msg":"Retrieved dom property for element xpath=//*[@id=\"receipt\"] containing <div id=\"receipt\" class=\"alert alert-success\" role=\"alert\"><h3>Receipt</h3><div>2021-08-05T21:00:31.744Z</div><p class=\"badge badge-success\">RSB-ROBO-ORDER-3O2ILE5EG</p><p>Address 2</p><div id=\"parts\" class=\"alert alert-light\" role=\"alert\"><div>Head: 3</div><div>Body: 5</div><div>Legs: 1</div></div><p>Thank you for your order! We will ship your robot to you as soon as our warehouse robots gather the parts you ordered! You will receive your robot in no time!</p></div>"}
+{"level":30,"time":"2021-08-05T21:00:32.480Z","pid":12568,"hostname":"DESKTOP-RE44GK5","msg":"Retrieved dom property for element xpath=//*[@id=\"receipt\"] containing <div id=\"receipt\" class=\"alert alert-success\" role=\"alert\"><h3>Receipt</h3><div>2021-08-05T21:00:32.448Z</div><p class=\"badge badge-success\">RSB-ROBO-ORDER-5HJYVILHPV</p><p>Address 3</p><div id=\"parts\" class=\"alert alert-light\" role=\"alert\"><div>Head: 1</div><div>Body: 6</div><div>Legs: 6</div></div><p>Thank you for your order! We will ship your robot to you as soon as our warehouse robots gather the parts you ordered! You will receive your robot in no time!</p></div>"}
+{"level":30,"time":"2021-08-05T21:00:33.309Z","pid":12568,"hostname":"DESKTOP-RE44GK5","msg":"Retrieved dom property for element xpath=//*[@id=\"receipt\"] containing <div id=\"receipt\" class=\"alert alert-success\" role=\"alert\"><h3>Receipt</h3><div>2021-08-05T21:00:33.278Z</div><p class=\"badge badge-success\">RSB-ROBO-ORDER-OOZA0BNF78</p><p>Address 4</p><div id=\"parts\" class=\"alert alert-light\" role=\"alert\"><div>Head: 5</div><div>Body: 1</div><div>Legs: 5</div></div><p>Thank you for your order! We will ship your robot to you as soon as our warehouse robots gather the parts you ordered! You will receive your robot in no time!</p></div>"}
+{"level":30,"time":"2021-08-05T21:00:34.126Z","pid":12568,"hostname":"DESKTOP-RE44GK5","msg":"Retrieved dom property for element xpath=//*[@id=\"receipt\"] containing <div id=\"receipt\" class=\"alert alert-success\" role=\"alert\"><h3>Receipt</h3><div>2021-08-05T21:00:34.079Z</div><p class=\"badge badge-success\">RSB-ROBO-ORDER-2M16AU270L</p><p>Address 5</p><div id=\"parts\" class=\"alert alert-light\" role=\"alert\"><div>Head: 2</div><div>Body: 3</div><div>Legs: 3</div></div><p>Thank you for your order! We will ship your robot to you as soon as our warehouse robots gather the parts you ordered! You will receive your robot in no time!</p></div>"}
+{"level":30,"time":"2021-08-05T21:00:34.905Z","pid":12568,"hostname":"DESKTOP-RE44GK5","msg":"Retrieved dom property for element xpath=//*[@id=\"receipt\"] containing <div id=\"receipt\" class=\"alert alert-success\" role=\"alert\"><h3>Receipt</h3><div>2021-08-05T21:00:34.874Z</div><p class=\"badge badge-success\">RSB-ROBO-ORDER-VDX2HQC1XH</p><p>Address 6</p><div id=\"parts\" class=\"alert alert-light\" role=\"alert\"><div>Head: 3</div><div>Body: 2</div><div>Legs: 2</div></div><p>Thank you for your order! We will ship your robot to you as soon as our warehouse robots gather the parts you ordered! You will receive your robot in no time!</p></div>"}
+================= Original suppressed error =================
+page.waitForSelector: Timeout 10000ms exceeded.
+=========================== logs ===========================
+waiting for selector "xpath=//*[@id="receipt"]"
+============================================================
+    at Object.<anonymous> (C:\Users\admin\AppData\Local\robocorp\live\b9cced05ce8c3c59\lib\site-packages\Browser\wrapper\index.js:25509:50)
+    at step (C:\Users\admin\AppData\Local\robocorp\live\b9cced05ce8c3c59\lib\site-packages\Browser\wrapper\index.js:25482:23)
+    at Object.next (C:\Users\admin\AppData\Local\robocorp\live\b9cced05ce8c3c59\lib\site-packages\Browser\wrapper\index.js:25463:53)
+    at fulfilled (C:\Users\admin\AppData\Local\robocorp\live\b9cced05ce8c3c59\lib\site-packages\Browser\wrapper\index.js:25454:58) {
+  name: 'TimeoutError'
+}
+=============================================================
+================= Original suppressed error =================
+page.waitForSelector: Timeout 10000ms exceeded.
+=========================== logs ===========================
+waiting for selector "xpath=//*[@id="receipt"]"
+============================================================
+    at Object.<anonymous> (C:\Users\admin\AppData\Local\robocorp\live\b9cced05ce8c3c59\lib\site-packages\Browser\wrapper\index.js:25509:50)
+    at step (C:\Users\admin\AppData\Local\robocorp\live\b9cced05ce8c3c59\lib\site-packages\Browser\wrapper\index.js:25482:23)
+    at Object.next (C:\Users\admin\AppData\Local\robocorp\live\b9cced05ce8c3c59\lib\site-packages\Browser\wrapper\index.js:25463:53)
+    at fulfilled (C:\Users\admin\AppData\Local\robocorp\live\b9cced05ce8c3c59\lib\site-packages\Browser\wrapper\index.js:25454:58) {
+  name: 'TimeoutError'
+}
+=============================================================
+{"level":30,"time":"2021-08-05T21:00:57.148Z","pid":12568,"hostname":"DESKTOP-RE44GK5","msg":"Retrieved dom property for element xpath=//*[@id=\"receipt\"] containing <div id=\"receipt\" class=\"alert alert-success\" role=\"alert\"><h3>Receipt</h3><div>2021-08-05T21:00:57.114Z</div><p class=\"badge badge-success\">RSB-ROBO-ORDER-4MADB7NKM9</p><p>Address 7</p><div id=\"parts\" class=\"alert alert-light\" role=\"alert\"><div>Head: 4</div><div>Body: 4</div><div>Legs: 2</div></div><p>Thank you for your order! We will ship your robot to you as soon as our warehouse robots gather the parts you ordered! You will receive your robot in no time!</p></div>"}
+{"level":30,"time":"2021-08-05T21:00:57.915Z","pid":12568,"hostname":"DESKTOP-RE44GK5","msg":"Retrieved dom property for element xpath=//*[@id=\"receipt\"] containing <div id=\"receipt\" class=\"alert alert-success\" role=\"alert\"><h3>Receipt</h3><div>2021-08-05T21:00:57.883Z</div><p class=\"badge badge-success\">RSB-ROBO-ORDER-WG6BDGY45J</p><p>Address 8</p><div id=\"parts\" class=\"alert alert-light\" role=\"alert\"><div>Head: 6</div><div>Body: 6</div><div>Legs: 1</div></div><p>Thank you for your order! We will ship your robot to you as soon as our warehouse robots gather the parts you ordered! You will receive your robot in no time!</p></div>"}
+{"level":30,"time":"2021-08-05T21:00:58.757Z","pid":12568,"hostname":"DESKTOP-RE44GK5","msg":"Retrieved dom property for element xpath=//*[@id=\"receipt\"] containing <div id=\"receipt\" class=\"alert alert-success\" role=\"alert\"><h3>Receipt</h3><div>2021-08-05T21:00:58.729Z</div><p class=\"badge badge-success\">RSB-ROBO-ORDER-GBKZ59VP</p><p>Address 9</p><div id=\"parts\" class=\"alert alert-light\" role=\"alert\"><div>Head: 1</div><div>Body: 3</div><div>Legs: 3</div></div><p>Thank you for your order! We will ship your robot to you as soon as our warehouse robots gather the parts you ordered! You will receive your robot in no time!</p></div>"}
+{"level":30,"time":"2021-08-05T21:00:59.493Z","pid":12568,"hostname":"DESKTOP-RE44GK5","msg":"Retrieved dom property for element xpath=//*[@id=\"receipt\"] containing <div id=\"receipt\" class=\"alert alert-success\" role=\"alert\"><h3>Receipt</h3><div>2021-08-05T21:00:59.462Z</div><p class=\"badge badge-success\">RSB-ROBO-ORDER-R46H97AQP4</p><p>Address A</p><div id=\"parts\" class=\"alert alert-light\" role=\"alert\"><div>Head: 1</div><div>Body: 5</div><div>Legs: 4</div></div><p>Thank you for your order! We will ship your robot to you as soon as our warehouse robots gather the parts you ordered! You will receive your robot in no time!</p></div>"}
+{"level":30,"time":"2021-08-05T21:01:00.326Z","pid":12568,"hostname":"DESKTOP-RE44GK5","msg":"Retrieved dom property for element xpath=//*[@id=\"receipt\"] containing <div id=\"receipt\" class=\"alert alert-success\" role=\"alert\"><h3>Receipt</h3><div>2021-08-05T21:01:00.297Z</div><p class=\"badge badge-success\">RSB-ROBO-ORDER-RCKRLPHMZ</p><p>Address B</p><div id=\"parts\" class=\"alert alert-light\" role=\"alert\"><div>Head: 3</div><div>Body: 1</div><div>Legs: 5</div></div><p>Thank you for your order! We will ship your robot to you as soon as our warehouse robots gather the parts you ordered! You will receive your robot in no time!</p></div>"}
+{"level":30,"time":"2021-08-05T21:01:01.043Z","pid":12568,"hostname":"DESKTOP-RE44GK5","msg":"Retrieved dom property for element xpath=//*[@id=\"receipt\"] containing <div id=\"receipt\" class=\"alert alert-success\" role=\"alert\"><h3>Receipt</h3><div>2021-08-05T21:01:01.013Z</div><p class=\"badge badge-success\">RSB-ROBO-ORDER-7T8HX58SLT</p><p>Address C</p><div id=\"parts\" class=\"alert alert-light\" role=\"alert\"><div>Head: 3</div><div>Body: 2</div><div>Legs: 6</div></div><p>Thank you for your order! We will ship your robot to you as soon as our warehouse robots gather the parts you ordered! You will receive your robot in no time!</p></div>"}
+{"level":30,"time":"2021-08-05T21:01:01.914Z","pid":12568,"hostname":"DESKTOP-RE44GK5","msg":"Retrieved dom property for element xpath=//*[@id=\"receipt\"] containing <div id=\"receipt\" class=\"alert alert-success\" role=\"alert\"><h3>Receipt</h3><div>2021-08-05T21:01:01.877Z</div><p class=\"badge badge-success\">RSB-ROBO-ORDER-0J9SK81XVJ</p><p>Address D</p><div id=\"parts\" class=\"alert alert-light\" role=\"alert\"><div>Head: 6</div><div>Body: 3</div><div>Legs: 6</div></div><p>Thank you for your order! We will ship your robot to you as soon as our warehouse robots gather the parts you ordered! You will receive your robot in no time!</p></div>"}
+================= Original suppressed error =================
+page.waitForSelector: Timeout 10000ms exceeded.
+=========================== logs ===========================
+waiting for selector "xpath=//*[@id="receipt"]"
+============================================================
+    at Object.<anonymous> (C:\Users\admin\AppData\Local\robocorp\live\b9cced05ce8c3c59\lib\site-packages\Browser\wrapper\index.js:25509:50)
+    at step (C:\Users\admin\AppData\Local\robocorp\live\b9cced05ce8c3c59\lib\site-packages\Browser\wrapper\index.js:25482:23)
+    at Object.next (C:\Users\admin\AppData\Local\robocorp\live\b9cced05ce8c3c59\lib\site-packages\Browser\wrapper\index.js:25463:53)
+    at fulfilled (C:\Users\admin\AppData\Local\robocorp\live\b9cced05ce8c3c59\lib\site-packages\Browser\wrapper\index.js:25454:58) {
+  name: 'TimeoutError'
+}
+=============================================================
+================= Original suppressed error =================
+page.waitForSelector: Timeout 10000ms exceeded.
+=========================== logs ===========================
+waiting for selector "xpath=//*[@id="receipt"]"
+============================================================
+    at Object.<anonymous> (C:\Users\admin\AppData\Local\robocorp\live\b9cced05ce8c3c59\lib\site-packages\Browser\wrapper\index.js:25509:50)
+    at step (C:\Users\admin\AppData\Local\robocorp\live\b9cced05ce8c3c59\lib\site-packages\Browser\wrapper\index.js:25482:23)
+    at Object.next (C:\Users\admin\AppData\Local\robocorp\live\b9cced05ce8c3c59\lib\site-packages\Browser\wrapper\index.js:25463:53)
+    at fulfilled (C:\Users\admin\AppData\Local\robocorp\live\b9cced05ce8c3c59\lib\site-packages\Browser\wrapper\index.js:25454:58) {
+  name: 'TimeoutError'
+}
+=============================================================
+{"level":30,"time":"2021-08-05T21:01:24.157Z","pid":12568,"hostname":"DESKTOP-RE44GK5","msg":"Retrieved dom property for element xpath=//*[@id=\"receipt\"] containing <div id=\"receipt\" class=\"alert alert-success\" role=\"alert\"><h3>Receipt</h3><div>2021-08-05T21:01:24.124Z</div><p class=\"badge badge-success\">RSB-ROBO-ORDER-DNQUP8ZKI</p><p>Address E</p><div id=\"parts\" class=\"alert alert-light\" role=\"alert\"><div>Head: 5</div><div>Body: 4</div><div>Legs: 1</div></div><p>Thank you for your order! We will ship your robot to you as soon as our warehouse robots gather the parts you ordered! You will receive your robot in no time!</p></div>"}
+{"level":30,"time":"2021-08-05T21:01:24.959Z","pid":12568,"hostname":"DESKTOP-RE44GK5","msg":"Retrieved dom property for element xpath=//*[@id=\"receipt\"] containing <div id=\"receipt\" class=\"alert alert-success\" role=\"alert\"><h3>Receipt</h3><div>2021-08-05T21:01:24.924Z</div><p class=\"badge badge-success\">RSB-ROBO-ORDER-DP4BI86KBJ</p><p>Address F</p><div id=\"parts\" class=\"alert alert-light\" role=\"alert\"><div>Head: 2</div><div>Body: 5</div><div>Legs: 1</div></div><p>Thank you for your order! We will ship your robot to you as soon as our warehouse robots gather the parts you ordered! You will receive your robot in no time!</p></div>"}
+{"level":30,"time":"2021-08-05T21:01:25.919Z","pid":12568,"hostname":"DESKTOP-RE44GK5","msg":"Retrieved dom property for element xpath=//*[@id=\"receipt\"] containing <div id=\"receipt\" class=\"alert alert-success\" role=\"alert\"><h3>Receipt</h3><div>2021-08-05T21:01:25.889Z</div><p class=\"badge badge-success\">RSB-ROBO-ORDER-SM1P9LUKDN</p><p>Address G</p><div id=\"parts\" class=\"alert alert-light\" role=\"alert\"><div>Head: 4</div><div>Body: 6</div><div>Legs: 2</div></div><p>Thank you for your order! We will ship your robot to you as soon as our warehouse robots gather the parts you ordered! You will receive your robot in no time!</p></div>"}
+{"level":30,"time":"2021-08-05T21:01:26.642Z","pid":12568,"hostname":"DESKTOP-RE44GK5","msg":"Retrieved dom property for element xpath=//*[@id=\"receipt\"] containing <div id=\"receipt\" class=\"alert alert-success\" role=\"alert\"><h3>Receipt</h3><div>2021-08-05T21:01:26.610Z</div><p class=\"badge badge-success\">RSB-ROBO-ORDER-QM1GN00MR</p><p>Address H</p><div id=\"parts\" class=\"alert alert-light\" role=\"alert\"><div>Head: 1</div><div>Body: 1</div><div>Legs: 5</div></div><p>Thank you for your order! We will ship your robot to you as soon as our warehouse robots gather the parts you ordered! You will receive your robot in no time!</p></div>"}
