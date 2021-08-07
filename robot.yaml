@@ -1,6 +1,6 @@
 tasks:
   Run Python:
-    shell: python task.py
+    shell: python order_robots.py
 
 condaConfigFile: conda.yaml
 artifactsDir: output

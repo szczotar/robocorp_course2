@@ -8,18 +8,21 @@ from RPA.Tables import Tables
 from RPA.PDF import PDF 
 from RPA.FileSystem import FileSystem
 from RPA.Archive import Archive
-import time
+from RPA.Robocloud.Secrets import Secrets
+
 
 browser = Browser()
 pdf =PDF()
 file = FileSystem()
 archive = Archive()
 http = HTTP()
+secrets = Secrets()
 
 reciepts_path = os.path.join(os.path.expanduser("~/Downloads"), "Receipts")
 file.create_directory(reciepts_path)
 app_url = "https://robotsparebinindustries.com/#/robot-order"
-orders_url = "https://robotsparebinindustries.com/orders.csv"
+# orders_url = "https://robotsparebinindustries.com/orders.csv"
+orders_url = secrets.get_secret("orders_url")["url"]
 orders_path =  os.path.join(os.path.expanduser("~/Downloads"), "orders.csv")
 
 def open_website():
