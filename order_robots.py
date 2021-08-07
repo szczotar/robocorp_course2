@@ -1,4 +1,4 @@
-"""Template robot with Python."""
+"""Robocorp 2nd robot @Szczotar"""
 
 import os
 from time import thread_time
@@ -20,17 +20,12 @@ archive = Archive()
 http = HTTP()
 secrets = Secrets()
 dialog = Dialogs()
-
-
-# reciepts_path = os.path.join(os.path.expanduser("~/Downloads"), "Receipts")
-# file.create_directory(reciepts_path)
 orders_path =  os.path.join(os.path.expanduser("~/Downloads"), "orders.csv")
 
 def open_website():
-    # browser.new_browser(browser=SupportedBrowsers.chromium,headless=False,  args=["--start-maximized"])
     app_url = secrets.get_secret("process_website")["url"]
     browser.open_browser(app_url)
-    # browser.set_viewport_size(1800,1200)
+    # browser.set_viewport_size(1600,1200)
 
 def ask_user():
     dialog.add_heading("The url for the input is required",Size.Medium)
@@ -90,11 +85,10 @@ def take_robot_screenshot():
 
 if __name__ == "__main__":
     try:
-        # open_website()
+        open_website()
         donwload_orders()
         obtain_data_from_excel()
         build_robot()
-
     finally:
         browser.close_browser()
  
