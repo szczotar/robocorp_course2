@@ -40,23 +40,22 @@ def ask_user():
     result = dialog.wait_dialog(d, timeout=60)
     return result['url']
 
-
 def donwload_orders():
     orders_url = ask_user()
-    http.download(orders_url,orders_path)
+    http.download(orders_url,orders_path,overwrite=True)
         
 def obtain_data_from_excel():
     table = Tables()
     orders_table = table.read_table_from_csv(orders_path)
     return orders_table
-    
+
 # close popup which shows up after each order
 def close_popup():
     browser.click("""xpath=//*[@id="root"]/div/div[2]/div/div/div/div/div/button[1]""")
 
 def build_robot():
     reciepts_path = os.path.join(os.path.expanduser("~/Downloads"), "Receipts")
-    file.create_directory(reciepts_path)
+    file.create_directory(reciepts_path,)
     orders = obtain_data_from_excel()
     for order in orders:
         while True:
@@ -82,7 +81,6 @@ def build_robot():
                 # reload the page in case of exception
                 browser.reload()
                 continue
-
     # archive folder with all receipts and move it to output folder
     archive.archive_folder_with_zip(folder = reciepts_path, archive_name="output/Receipts.zip", recursive=True)
 
@@ -92,7 +90,7 @@ def take_robot_screenshot():
 
 if __name__ == "__main__":
     try:
-        open_website()
+        # open_website()
         donwload_orders()
         obtain_data_from_excel()
         build_robot()

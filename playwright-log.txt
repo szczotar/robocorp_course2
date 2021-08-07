@@ -1,7 +1,27 @@
-{"level":30,"time":"2021-08-07T17:35:52.467Z","pid":7828,"hostname":"DESKTOP-RE44GK5","msg":"Listening on 57819"}
-{"level":30,"time":"2021-08-07T17:35:53.694Z","pid":7828,"hostname":"DESKTOP-RE44GK5","msg":"currentBrowser: [object Object]"}
-{"level":30,"time":"2021-08-07T17:35:53.694Z","pid":7828,"hostname":"DESKTOP-RE44GK5","msg":"Trace file: "}
-{"level":30,"time":"2021-08-07T17:35:53.750Z","pid":7828,"hostname":"DESKTOP-RE44GK5","msg":"Changed active context"}
-{"level":30,"time":"2021-08-07T17:35:53.759Z","pid":7828,"hostname":"DESKTOP-RE44GK5","msg":"currentBrowser: [object Object]"}
-{"level":30,"time":"2021-08-07T17:35:54.432Z","pid":7828,"hostname":"DESKTOP-RE44GK5","msg":"Video path: undefined"}
-{"level":30,"time":"2021-08-07T17:35:54.432Z","pid":7828,"hostname":"DESKTOP-RE44GK5","msg":"Changed active page"}
+{"level":30,"time":"2021-08-07T17:59:23.345Z","pid":5924,"hostname":"DESKTOP-RE44GK5","msg":"Listening on 55922"}
+================= Original suppressed error =================
+Error: Tried to do playwright action, but no open page.
+    at exists (C:\Users\admin\AppData\Local\robocorp\live\b9cced05ce8c3c59\lib\site-packages\Browser\wrapper\index.js:25732:15)
+    at C:\Users\admin\AppData\Local\robocorp\live\b9cced05ce8c3c59\lib\site-packages\Browser\wrapper\index.js:25612:21
+    at step (C:\Users\admin\AppData\Local\robocorp\live\b9cced05ce8c3c59\lib\site-packages\Browser\wrapper\index.js:25482:23)
+    at Object.next (C:\Users\admin\AppData\Local\robocorp\live\b9cced05ce8c3c59\lib\site-packages\Browser\wrapper\index.js:25463:53)
+    at C:\Users\admin\AppData\Local\robocorp\live\b9cced05ce8c3c59\lib\site-packages\Browser\wrapper\index.js:25457:71
+    at new Promise (<anonymous>)
+    at __webpack_modules__../node/playwright-wrapper/playwirght-invoke.ts.__awaiter (C:\Users\admin\AppData\Local\robocorp\live\b9cced05ce8c3c59\lib\site-packages\Browser\wrapper\index.js:25453:12)
+    at determineContextAndSelector (C:\Users\admin\AppData\Local\robocorp\live\b9cced05ce8c3c59\lib\site-packages\Browser\wrapper\index.js:25606:12)
+    at Object.<anonymous> (C:\Users\admin\AppData\Local\robocorp\live\b9cced05ce8c3c59\lib\site-packages\Browser\wrapper\index.js:25584:46)
+    at step (C:\Users\admin\AppData\Local\robocorp\live\b9cced05ce8c3c59\lib\site-packages\Browser\wrapper\index.js:25482:23)
+=============================================================
+================= Original suppressed error =================
+Error: No page open.
+    at PlaywrightServer.getActivePage (C:\Users\admin\AppData\Local\robocorp\live\b9cced05ce8c3c59\lib\site-packages\Browser\wrapper\index.js:24033:23)
+    at PlaywrightServer.<anonymous> (C:\Users\admin\AppData\Local\robocorp\live\b9cced05ce8c3c59\lib\site-packages\Browser\wrapper\index.js:24634:73)
+    at step (C:\Users\admin\AppData\Local\robocorp\live\b9cced05ce8c3c59\lib\site-packages\Browser\wrapper\index.js:23999:23)
+    at Object.next (C:\Users\admin\AppData\Local\robocorp\live\b9cced05ce8c3c59\lib\site-packages\Browser\wrapper\index.js:23980:53)
+    at C:\Users\admin\AppData\Local\robocorp\live\b9cced05ce8c3c59\lib\site-packages\Browser\wrapper\index.js:23974:71
+    at new Promise (<anonymous>)
+    at __webpack_modules__../node/playwright-wrapper/grpc-service.ts.__awaiter (C:\Users\admin\AppData\Local\robocorp\live\b9cced05ce8c3c59\lib\site-packages\Browser\wrapper\index.js:23970:12)
+    at PlaywrightServer.__webpack_modules__../node/playwright-wrapper/grpc-service.ts.PlaywrightServer.reload (C:\Users\admin\AppData\Local\robocorp\live\b9cced05ce8c3c59\lib\site-packages\Browser\wrapper\index.js:24625:16)
+    at handleUnary (C:\Users\admin\AppData\Local\robocorp\live\b9cced05ce8c3c59\lib\site-packages\Browser\wrapper\index.js:17918:13)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+=============================================================
