@@ -1,7 +1,9 @@
 """Template robot with Python."""
 
 import os
+from time import thread_time
 from Browser.utils.data_types import ElementState, SelectAttribute, SupportedBrowsers
+from RPA.Dialogs.dialog_types import Options, Result, Size
 from RPA.HTTP import HTTP
 from Browser import Browser
 from RPA.Tables import Tables
@@ -9,7 +11,7 @@ from RPA.PDF import PDF
 from RPA.FileSystem import FileSystem
 from RPA.Archive import Archive
 from RPA.Robocloud.Secrets import Secrets
-
+from RPA.Dialogs import Dialogs
 
 browser = Browser()
 pdf =PDF()
@@ -17,22 +19,32 @@ file = FileSystem()
 archive = Archive()
 http = HTTP()
 secrets = Secrets()
+dialog = Dialogs()
 
-reciepts_path = os.path.join(os.path.expanduser("~/Downloads"), "Receipts")
-file.create_directory(reciepts_path)
-app_url = "https://robotsparebinindustries.com/#/robot-order"
-# orders_url = "https://robotsparebinindustries.com/orders.csv"
-orders_url = secrets.get_secret("orders_url")["url"]
+
+# reciepts_path = os.path.join(os.path.expanduser("~/Downloads"), "Receipts")
+# file.create_directory(reciepts_path)
 orders_path =  os.path.join(os.path.expanduser("~/Downloads"), "orders.csv")
 
 def open_website():
     # browser.new_browser(browser=SupportedBrowsers.chromium,headless=False,  args=["--start-maximized"])
+    app_url = secrets.get_secret("process_website")["url"]
     browser.open_browser(app_url)
     # browser.set_viewport_size(1800,1200)
- 
+
+def ask_user():
+    dialog.add_heading("The url for the input is required",Size.Medium)
+    dialog.add_text_input("url","Enter the input url",rows=1)
+    dialog.add_submit_buttons(buttons="Yes,No")
+    d = dialog.show_dialog(height=300, width=400)
+    result = dialog.wait_dialog(d, timeout=60)
+    return result['url']
+
+
 def donwload_orders():
+    orders_url = ask_user()
     http.download(orders_url,orders_path)
-    
+        
 def obtain_data_from_excel():
     table = Tables()
     orders_table = table.read_table_from_csv(orders_path)
@@ -43,6 +55,8 @@ def close_popup():
     browser.click("""xpath=//*[@id="root"]/div/div[2]/div/div/div/div/div/button[1]""")
 
 def build_robot():
+    reciepts_path = os.path.join(os.path.expanduser("~/Downloads"), "Receipts")
+    file.create_directory(reciepts_path)
     orders = obtain_data_from_excel()
     for order in orders:
         while True:
