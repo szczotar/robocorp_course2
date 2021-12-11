@@ -10,7 +10,8 @@ from RPA.Tables import Tables
 from RPA.PDF import PDF 
 from RPA.FileSystem import FileSystem
 from RPA.Archive import Archive
-from RPA.Robocloud.Secrets import Secrets
+# from RPA.Robocloud.Secrets import Secrets
+from RPA.Robocorp.Vault import Vault
 from RPA.Dialogs import Dialogs
 
 browser = Browser()
@@ -18,7 +19,7 @@ pdf =PDF()
 file = FileSystem()
 archive = Archive()
 http = HTTP()
-secrets = Secrets()
+secrets = Vault()
 dialog = Dialogs()
 orders_path =  os.path.join(os.path.expanduser("~/Downloads"), "orders.csv")
 
